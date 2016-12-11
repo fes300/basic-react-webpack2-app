@@ -5,6 +5,7 @@
 
 # Ignore dependency libraries
 node_modules
+npm-debug.log
 
 # Ignore compiled files
 dist/bundle.*
