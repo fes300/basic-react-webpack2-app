@@ -1,0 +1,10 @@
+# Ignore temporary files
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore dependency libraries
+node_modules
+
+# Ignore compiled files
+dist/bundle.*

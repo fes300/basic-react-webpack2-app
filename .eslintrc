@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [ "react", "import" ],
+  "rules": {
+    semi: [2, "never"],
+    "no-use-before-define": "off",
+    "no-constant-condition": "off",
+    "global-require": "off",
+    "no-var": "off",
+    "no-shadow": "off",
+    "no-underscore-dangle": "off",
+    "max-len": "off",
+    "react/jsx-filename-extension": "off",
+  },
+  "settings": {
+    "import/resolver": {
+      webpack: { config: 'webpack.config.js' }
+    },
+  },
+}
